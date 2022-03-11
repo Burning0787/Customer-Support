@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>msgBox</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Enter Your Query Here</h1>
+  <form method="post" action="/submit-form">
+<label for="senderName">Name: <input type="text" name="senderName"></label><br><br>
+<label for="email">Email ID: <input type="email" name="email"></label><br><br>
+<label for="Phone_No">Phone No: <input type="tel" name="Phone_No" pattern="[0-9]{10}"></label><br><br>
+<label for="Query">Query: <input type="text" name="Query"></label><br><br>
+<input type="submit">
+  </form>
+
+  </body>
+</html>
